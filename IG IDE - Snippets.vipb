@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 09:19:28" Modified_Date="2021-12-25 11:50:07" Creator="Localization Tester" Comments="" ID="1810c27eb4d60916d4db519cd9762b9e">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 09:19:28" Modified_Date="2021-12-25 12:12:19" Creator="Localization Tester" Comments="" ID="8d8d439895af9ec54008a6a2417ee338">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_IDE___Snippets</Package_File_Name>
-    <Library_Version>1.0.0.12</Library_Version>
+    <Library_Version>1.0.0.13</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -38,7 +38,7 @@ The code snippets center around DVR usage and include the nested structures comm
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-ide-snippets</URL>
-      <Release_Notes/>
+      <Release_Notes>Remove breakpoint accidentally left in.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -298,7 +298,7 @@ The code snippets center around DVR usage and include the nested structures comm
         <Path>snippets\ByRef In Place.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>50E74B7FF32CF076A7A305587C5C3A22</GUID>
+      <GUID>0E36BAE665FAE71A658ADEEC94E1B414</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
