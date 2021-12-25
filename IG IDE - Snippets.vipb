@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 09:19:28" Modified_Date="2021-12-25 11:23:58" Creator="Localization Tester" Comments="" ID="2e5dd9170a5c7f66929e1233811ca151">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 09:19:28" Modified_Date="2021-12-25 11:50:07" Creator="Localization Tester" Comments="" ID="1810c27eb4d60916d4db519cd9762b9e">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_IDE___Snippets</Package_File_Name>
-    <Library_Version>1.0.0.11</Library_Version>
+    <Library_Version>1.0.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..</Library_Output_Folder>
@@ -29,6 +29,8 @@
     <Description>
       <One_Line_Description_Summary>Code snippets and project tooling to speed up OOP and DVR development with no code dependencies.</One_Line_Description_Summary>
       <Description>This package has 2 main sets of features to reduce the time spent with simple but tedious tasks in LabVIEW: project tooling and code snippets.
+
+A video preview of the features is available at https://youtu.be/nuIjcFvUtbU and as a link in the github readme.
 
 The project tooling adds a context menu entry to create common virtual folder structures for classes and to save a virtual folder layout for quick setup later.
 
@@ -296,7 +298,7 @@ The code snippets center around DVR usage and include the nested structures comm
         <Path>snippets\ByRef In Place.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2228CD4CD2A0BB60C7387D051C58B056</GUID>
+      <GUID>50E74B7FF32CF076A7A305587C5C3A22</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
