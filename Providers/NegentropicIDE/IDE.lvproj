@@ -10,6 +10,11 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="LVClassLibrary" Type="Folder">
+			<Item Name="CLSUIP_MemberTemplate.vit" Type="VI" URL="../LVClassLibrary/CLSUIP_MemberTemplate.vit"/>
+			<Item Name="Custom User Scripting For New Override VI.vi" Type="VI" URL="../LVClassLibrary/Custom User Scripting For New Override VI.vi"/>
+			<Item Name="Readme.txt" Type="Document" URL="../LVClassLibrary/Readme.txt"/>
+		</Item>
 		<Item Name="Negentropic IDE.lvlib" Type="Library" URL="../Negentropic IDE/Negentropic IDE.lvlib"/>
 		<Item Name="NegentropicIDE.ini" Type="Document" URL="../../GProviders/NegentropicIDE.ini"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -22,6 +27,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Is Name Multiplatform.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Is Name Multiplatform.vi"/>
+				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>

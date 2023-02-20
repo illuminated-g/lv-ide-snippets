@@ -1,10 +1,10 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 09:19:28" Modified_Date="2022-02-05 11:33:46" Creator="Localization Tester" Comments="" ID="48cab074ed89b45c36f59baf71609706">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 09:19:28" Modified_Date="2023-02-20 16:38:51" Creator="Localization Tester" Comments="" ID="7958d8551f61b6063cbe09cbb3992b32">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_IDE___Snippets</Package_File_Name>
-    <Library_Version>1.0.1.18</Library_Version>
+    <Library_Version>1.1.0.20</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
-    <Library_Output_Folder>..</Library_Output_Folder>
+    <Library_Output_Folder>..\vip</Library_Output_Folder>
     <Company_Name>IlluminatedG</Company_Name>
     <Library_Summary/>
     <Library_License>MIT</Library_License>
@@ -38,8 +38,12 @@ The code snippets center around DVR usage and include the nested structures comm
       <Copyright/>
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-ide-snippets</URL>
-      <Release_Notes>- Fix BD terminal layout bug if LV didn't place the Call Parent Method node when creating an override.
-- Add folder scaffolding to LVLibs.</Release_Notes>
+      <Release_Notes>1.1.0.19
+- Change context menu name to IG Tools
+- Add folder scaffolding to LVLibs.
+- Add Launch Reusable VI snippet following Launch Actor Core pattern to avoid root loop blocks on successive calls.
+- Fix BD terminal layout bug if LV didn't place the Call Parent Method node when creating an override.
+- Fix BD layout when overriding VIs that do not have all class / error terminals.</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -299,7 +303,7 @@ The code snippets center around DVR usage and include the nested structures comm
         <Path>snippets\ByRef In Place.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5C9CCC4492C69EC063968E95A6EDBF0</GUID>
+      <GUID>8D840E90EA2E352694EF9416698CDF24</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
