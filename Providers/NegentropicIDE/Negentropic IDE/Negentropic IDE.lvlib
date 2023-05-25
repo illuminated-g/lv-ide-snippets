@@ -13,6 +13,12 @@
 		<Item Name="Item_OnPopupMenu.vi" Type="VI" URL="../Item_OnPopupMenu.vi"/>
 	</Item>
 	<Item Name="Commands" Type="Folder">
+		<Item Name="Overrides" Type="Folder">
+			<Item Name="Interface" Type="Folder">
+				<Item Name="Create All Overrides UI.vi" Type="VI" URL="../Create All Overrides UI.vi"/>
+			</Item>
+			<Item Name="Override All Required.vi" Type="VI" URL="../Override All Required.vi"/>
+		</Item>
 		<Item Name="Scaffolding" Type="Folder">
 			<Item Name="Config" Type="Folder">
 				<Item Name="Build Folder Config.vi" Type="VI" URL="../Build Folder Config.vi"/>
