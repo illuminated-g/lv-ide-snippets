@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 09:19:28" Modified_Date="2023-03-15 07:00:13" Creator="Localization Tester" Comments="" ID="f2868b0e6279dfe948bfbb4f7dd0f5be">
+<VI_Package_Builder_Settings Version="2020.1" Created_Date="2021-12-25 09:19:28" Modified_Date="2023-08-16 22:16:27" Creator="Localization Tester" Comments="" ID="999b5c2baa462500bcb68064353418c7">
   <Library_General_Settings>
     <Package_File_Name>IlluminatedG_lib_IG_IDE___Snippets</Package_File_Name>
-    <Library_Version>1.2.0.28</Library_Version>
+    <Library_Version>1.4.0.29</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\vip</Library_Output_Folder>
@@ -39,6 +39,11 @@ The code snippets center around DVR usage and include the nested structures comm
       <Packager>Derrick Bommarito</Packager>
       <URL>https://github.com/illuminated-g/lv-ide-snippets</URL>
       <Release_Notes>- GUI Tool for quickly creating all overrides in a new child class.
+1.4.0.29
+- Natt Sequence
+1.3.0.28
+- Only connect class input and output if actually class
+- Only connect error input and output if actually errors
 1.1.0.21
 - Now the menu name is actually changed. It helps to look at the correct VM for the right source code...
 1.1.0.20
@@ -322,7 +327,21 @@ The code snippets center around DVR usage and include the nested structures comm
         <Path>snippets\Launch Reusable VI.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C6F889429BB2FAF8FE7D7ED758469943</GUID>
+      <Items_Data>
+        <Type>Item</Type>
+        <Sub_Palette_Index>-1</Sub_Palette_Index>
+        <NameSub_Menu_Name>Natt Sequence.vi</NameSub_Menu_Name>
+        <Short_Name/>
+        <is_Merge_VI>true</is_Merge_VI>
+        <Position>
+          <Row>2</Row>
+          <Column>3</Column>
+        </Position>
+        <Icon>00000000</Icon>
+        <Path>snippets\Natt Sequence.vi</Path>
+        <VI_Title/>
+      </Items_Data>
+      <GUID>F9A939C1D675C8BAE5856DEF43C9EC0F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
